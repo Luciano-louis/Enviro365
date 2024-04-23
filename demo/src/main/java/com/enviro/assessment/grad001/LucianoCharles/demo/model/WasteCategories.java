@@ -33,17 +33,12 @@ public class WasteCategories {
     public void setCategory(String category) {
         this.category = category;
     }
-    public String getDisposal_tip() {
-        return disposal_tip;
-    }
-    public void setDisposal_tip(String disposal_tip) {
-        this.disposal_tip = disposal_tip;
-    }
-    public String getRecycling_tip() {
-        return recycling_tip;
-    }
+    public String getDisposalTip()  {return disposal_tip;}
+    public void setDisposal_tip(String disposal_tip) {this.disposal_tip = disposal_tip;}
+    public String getRecyclingTip()  {return recycling_tip;}
     public void setRecycling_tip(String recycling_tip) {
         this.recycling_tip = recycling_tip;
     }
+
 
 }
